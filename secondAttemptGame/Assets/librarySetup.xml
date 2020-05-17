@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Game>
+  <Screen>
+    
+  </Screen>
+  <AssetLibrary create="true">
+    <Asset name="" set="" path="./Assets/Sprote"></Asset>
+    <Asset name="" set="" path=""/>
+    <Asset></Asset>
+  </AssetLibrary>
+  <Sound create="false">
+    
+  </Sound>
+  <Object type="">
+    <Component name="" asset="" sprite=""/>
+  </Object>
+
+
   
   
 </Game>

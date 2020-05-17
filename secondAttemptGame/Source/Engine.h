@@ -8,7 +8,7 @@
 using namespace std;
 class Engine {
 public:
-	Engine();
+	Engine()=delete;
 	Engine(string path);
 	~Engine();
 	void loadLevel(string levelPath);

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Game>
+  <Main>
+    <Components>
+      <Sprite name="" path="./Assets/Sprite/Idle (1).png"/>
+      <Body x="3.0f" y="3.0f"/>
+    </Components>
+  </Main>
+  <Skeleton>
+    <Sprite name="" path="./Assets/Sprite/Skeleton.png"/>
+    <Body x="10.0f" y="3.0f"/>
+  </Skeleton>
+  <Tree>
+    <Sprite name="" path="./Assets/Sprite/Tree.png"/>
+    <Body x="2.0f" y="3.0f"/>
+  </Tree>
+</Game>

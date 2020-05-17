@@ -1,0 +1,10 @@
+prefix=C:/Users/Kimari/Documents/Advanced Game Programming/cpsc-4377-quest-2-spring-2020-serena_myers_watson/SerenaQuest1/Third Party/tinyxml2-master/out/install/x64-Debug
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: TinyXML2
+Description: simple, small, C++ XML parser
+Version: 7.1.0
+Libs: -L${libdir} -ltinyxml2
+Cflags: -I${includedir}

@@ -1,11 +1,8 @@
 #include "Engine.h"
 
-Engine::Engine()
-{
-}
-
 Engine::Engine(string path)
 {
+	loadLevel(path);
 }
 
 Engine::~Engine()
@@ -14,6 +11,14 @@ Engine::~Engine()
 
 void Engine::loadLevel(string levelPath)
 {
+	tinyxml2::XMLDocument doc;
+	doc.LoadFile(levelPath.c_str());
+	tinyxml2::XMLElement* root = doc.FirstChildElement("Game");
+	tinyxml2::XMLElement* element{root->FirstChildElement()};
+	while (element != nullptr)
+	{
+		objects.push_back(objectLibrary->library)
+	}
 }
 
 void Engine::update()
